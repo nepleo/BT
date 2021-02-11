@@ -27,6 +27,7 @@ public abstract class BTSerialComm {
     //蓝牙连接状态
     private boolean mbConnectOk = false;
 
+
     //获取默认适配器
     private BluetoothAdapter mBT = BluetoothAdapter.getDefaultAdapter();
     //蓝牙串口连接对象
