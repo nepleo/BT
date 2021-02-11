@@ -353,6 +353,7 @@ public class LinkActivity extends AppCompatActivity {
                             Toast.LENGTH_LONG).show();
                     mbtnCon.setEnabled(false);
                     showDeviceInfo();//刷新配置信息
+                    mbtnPair.setEnabled(true); //解冻配对按钮
                 } else {
                     Toast.makeText(LinkActivity.this,
                             getString(R.string.LinkActivity_msg_bluetooth_removeBond_fail),
@@ -361,7 +362,6 @@ public class LinkActivity extends AppCompatActivity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            mbtnPair.setEnabled(true); //解冻配对按钮
         }
     }
 
