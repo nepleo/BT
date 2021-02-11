@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BT</string>
+    <string name="ble_not_support">ble not support</string>
+    <string name="bt_not_get_device">"not get bt devices"</string>
+    <string name="Scan_bond_bonded">"Bonded"</string>
+    <string name="Scan_bond_nothing">"Unbond"</string>
+
+    <string name="device_type_bredr">"BR/EDR Bluetooth"</string>
+    <string name="device_type_ble">"Low Energy Bluetooth"</string>
+    <string name="device_type_dumo">"Duplex mode Bluetooth"</string>
+
+    <string name="ScanActivity_msg_select_device">Select the device you need to connect</string>
+    <string name="ScanActivity_msg_not_find_device">Devices not found</string>
+
+    <string name="ScanActivity_msg_scaning_device">Scanning&#8230;</string>
+    <string name="ScanActivity_msg_bluetooth_not_start">Bluetooth is not enabled</string>
+
+    <string name="link_device_info">Device name: %1$s\nMac addr: %2$s\nClass of device:%3$s\nSignal: %4$s\nType: %5$s\nBind state: %6$s\n</string>
+
+    <string name="find_service_uuids">Searching services list&#8230;</string>
+
+    <string name="LinkActivity_msg_bluetooth_Bonding">pairing&#8230;</string>
+    <string name="LinkActivity_msg_bluetooth_RemoveBond">unpairing&#8230;</string>
+
+    <string name="LinkActivity_msg_bluetooth_Bond_Success">Pairing successful</string>
+
+    <string name="LinkActivity_msg_bluetooth_Bond_fail">Pairing failed</string>
+
+    <string name="LinkActivity_find_service_uuids">Searching services list&#8230;</string>
+    <string name="LinkActivity_not_find_service_uuids">Not find services list.</string>
+
+    <string name="LinkActivity_msg_device_connecting">Connecting device&#8230;</string>
+
+    <string name="LinkActivity_msg_device_connect_fail">SPP communication failure</string>
+    <string name="LinkActivity_msg_device_connect_succes">Successful connection</string>
+
+    <string name="LinkActivity_msg_bluetooth_removeBond_fail">Unpair failed</string>
+
+    <string name="LinkActivity_msg_bluetooth_removeBond_succes">Unpair succesed</string>
+
+    <string name="edit_message">Please enter</string>
+
+    <string name="LinkActivity_msg_connect_again">Please Connect</string>
+</resources>
