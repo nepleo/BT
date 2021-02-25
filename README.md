@@ -4,8 +4,6 @@
 
 - 安装包下载链接 [BT.apk](https://github.com/nepleo/BT/blob/master/app/release/app-release.apk)
 
--  毕业设计进度 20%，加油！！！
-
 - 示例图片
 
 <table>
