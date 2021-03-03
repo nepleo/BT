@@ -46,7 +46,7 @@ public class LinkActivity extends AppCompatActivity {
     //控件:通信按钮
     private Button mbtnCon = null;
 
-    /**获取到的UUID Service 列表信息*/
+    /** 获取到的UUID Service 列表信息 */
     private ArrayList<String> mslUuidList = new ArrayList<String>();
 
     /**手机的蓝牙适配器*/
