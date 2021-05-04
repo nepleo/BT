@@ -220,6 +220,42 @@ public class LinkActivity extends AppCompatActivity {
         new connSocketTask().execute(this.mBDevice.getAddress());
     }
 
+    /**
+     * 控制向左Left
+     * */
+    public void btnLeftSend(View v) {
+        String str = "0x02";
+        this.mBSC.Send(str);
+    }
+
+    /**
+     * 控制变换
+     * */
+    public void btnUpSend(View v){
+        this.mBSC.Send("0x01");
+    }
+
+    /**
+     * 控制向下Down
+     * */
+    public void btnDownSend(View v){
+        this.mBSC.Send("0x03");
+    }
+
+    /**
+     * 控制向右
+     * */
+    public void btnRightSend(View v){
+        this.mBSC.Send("0x04");
+    }
+
+    /**
+     * 控制加速
+     * */
+    public void btnSpaceSend(View v){
+        this.mBSC.Send("0x05");
+    }
+
 
     //配对线程
     private class PairTask extends AsyncTask<String, String, Integer> {

@@ -18,11 +18,12 @@
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.BT">
-        <activity android:name=".LinkActivity"
-            android:parentActivityName=".ScanActivity"></activity>
+        <activity
+            android:name=".LinkActivity"
+            android:parentActivityName=".ScanActivity" />
         <activity
             android:name=".ScanActivity"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

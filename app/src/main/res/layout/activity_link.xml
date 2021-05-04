@@ -56,13 +56,12 @@
 
     <!--android:text="@string/find_service_uuids"-->
 
-
     <Button
         android:id="@+id/btnUnpair"
         android:layout_width="90dp"
         android:layout_height="47dp"
         android:layout_marginStart="88dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="255dp"
         android:onClick="btnUnPair"
         android:text="Unpair"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,7 +72,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="188dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="255dp"
         android:onClick="btnConn"
         android:text="CONNECT"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,7 +83,7 @@
         android:layout_width="78dp"
         android:layout_height="47dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="255dp"
         android:onClick="btnPair"
         android:text="Pair"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,16 +94,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="304dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="255dp"
         android:onClick="showUUIDs"
         android:text="UUID"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
         android:id="@+id/service_uuid"
         android:layout_width="0dp"
-        android:layout_height="89dp"
+        android:layout_height="40dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="208dp"
         android:layout_marginEnd="1dp"
@@ -145,5 +145,86 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/edit_text_tx" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1000dp"
+        android:paddingLeft="20dp"
+        tools:ignore="MissingConstraints">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_left"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="410dp"
+            android:onClick="btnLeftSend"
+            android:text="L"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <Button
+            android:id="@+id/btn_down"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="410dp"
+            android:onClick="btnDownSend"
+            android:text="D"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="167dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="410dp"
+            android:onClick="btnRightSend"
+            android:text="R"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <Button
+            android:id="@+id/btn_up"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="410dp"
+            android:onClick="btnUpSend"
+            android:text="C"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="278dp"
+            tools:layout_editor_absoluteY="455dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="@+id/pair_btn">
+
+        <Button
+            android:id="@+id/btn_dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="330dp"
+            android:onClick="btnSpaceSend"
+            android:text="F"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="385dp" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
